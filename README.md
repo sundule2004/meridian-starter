@@ -13,20 +13,10 @@ A React Native (Expo) chatbot app for Meridian Consulting Group staff, plus a sm
 
 ## 2. Set up
 
-```bash
-# 1. Unzip this folder, open a terminal inside it, then:
-npm install
-
-# 2. Start a Git repository of your own
-git init
-git add .
-git commit -m "Initial commit: Meridian starter"
-# Create an empty PUBLIC repository on GitHub and push to it
-
-# 3. Run the app
-npx expo start
-# press "a" for Android emulator, or scan the QR code with Expo Go
-```
+1. `cd backend && cp .env.example .env` then put YOUR Claude key in `.env` (never commit it). `npm install && npm start`.
+2. `cd app && npm install && npx expo install expo-secure-store expo-sqlite expo-speech`.
+3. Set `EXPO_PUBLIC_API_URL` (Android emulator `http://10.0.2.2:3000`, phone: your PC's LAN IP). `npx expo start`.
+4. Sign in with the demo account from `.env`.
 
 ### Run the backend
 
@@ -78,7 +68,7 @@ tests/                     your test questions and results
 ## 5. My notes (candidates write below)
 
 **AI tools I used:**
--  Claude: explaining the faults and drafting fixes that I read, tested and changed
+-  Claude: explaining the task, drafting backend/system prompt/SQLite code, which I then read, tested and changed
 - Claude API (claude-haiku-5-5): the chatbot itself, called from the backend only
 - codeRabbit - review the code & fixing buges
 
