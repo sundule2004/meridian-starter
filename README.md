@@ -80,7 +80,7 @@ tests/                     your test questions and results
 **AI tools I used:**
 -  Claude: explaining the faults and drafting fixes that I read, tested and changed
 - Claude API (claude-haiku-5-5): the chatbot itself, called from the backend only
-- codeRabbit - fixing buges
+- codeRabbit - review the code & fixing buges
 
 **Reflection (about 300 words):**
 
