@@ -74,6 +74,14 @@ tests/                     your test questions and results
 
 **Reflection (about 300 words):**
 
+Question
+
+1	How many days of annual leave do full-time employees receive per year? 	Expected answer:	Full-time staff receive 25 days of annual leave per year. Requests must be submitted at least 5 working days in advance.
+2	How many days per week can employees work remotely? 	Expected answer:	Staff may work remotely up to 3 days per week, with their manager's approval.
+3	What is the deadline for submitting expense claims, and when is director approval required? 	Expected answer:	Claims must be submitted within 60 days, with receipts. Claims above $1,000 require director approval.
+4	How many failed sign-in attempts cause an account to lock? 	Expected answer	An account locks after 3 failed sign-in attempts. Passwords can be reset through the self-service portal.
+5	What time is the IT help desk available? 	Expected answer:	The IT help desk is available from 08:00 to 18:00 on working days.
+
 ​ISSUE
 -my expo version is  Expo-Go-58.0.5 required is 58.0.26 plus slow internet so i used to explaining the faults and drafting fixes that I read, tested and changed and  codeRabbit - fixing buges while it's downloading 
 -i used GitHub desktop push my code issue with the network 
