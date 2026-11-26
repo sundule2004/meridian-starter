@@ -21,6 +21,10 @@ export default function SignInScreen() {
       <TextInput
         style={styles.input}
         placeholder="Work email"
+        placeholderTextColor="#6b7280"
+        accessibilityLabel="Work email"
+        keyboardType="email-address"
+        autoCorrect={false}
         value={email}
         onChangeText={setEmail}
         autoCapitalize="none"
@@ -28,11 +32,13 @@ export default function SignInScreen() {
       <TextInput
         style={styles.input}
         placeholder="Password"
+        placeholderTextColor="#6b7280"
+        accessibilityLabel="Password"
         value={password}
         onChangeText={setPassword}
         secureTextEntry
       />
-      <TouchableOpacity style={styles.button} onPress={onSignIn}>
+      <TouchableOpacity style={styles.button} onPress={onSignIn} accessibilityRole="button" accessibilityLabel="Sign in">
         <Text style={styles.buttonText}>Sign in</Text>
       </TouchableOpacity>
     </View>
@@ -42,7 +48,7 @@ export default function SignInScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: '#ffffff' },
   title: { fontSize: 26, fontWeight: '700', marginBottom: 24, textAlign: 'center' },
-  input: { borderWidth: 1, borderColor: '#999999', borderRadius: 8, padding: 12, marginBottom: 12, fontSize: 16 },
+  input: { borderWidth: 1, borderColor: '#6b7280', color: '#111827', borderRadius: 8, padding: 12, marginBottom: 12, fontSize: 16 },
   button: { backgroundColor: '#1a56db', padding: 14, borderRadius: 8, alignItems: 'center' },
   buttonText: { color: '#ffffff', fontSize: 16, fontWeight: '600' },
 });

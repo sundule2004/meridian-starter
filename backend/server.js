@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: require('path').join(__dirname, '.env') }); // always backend/.env, whatever folder you start from
 const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
