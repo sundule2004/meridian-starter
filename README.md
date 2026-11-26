@@ -80,12 +80,13 @@ tests/                     your test questions and results
 **AI tools I used:**
 -  Claude: explaining the faults and drafting fixes that I read, tested and changed
 - Claude API (claude-haiku-5-5): the chatbot itself, called from the backend only
-- codeRabbit - fixing buges
+- codeRabbit - review the code & fixing buges
 
 **Reflection (about 300 words):**
 
-- ​ISSUE
-my expo version is  Expo-Go-58.0.5 required is 58.0.26 plus slow internet so i used to explaining the faults and drafting fixes that I read, tested and changed and  codeRabbit - fixing buges while it's downloading 
+​ISSUE
+-my expo version is  Expo-Go-58.0.5 required is 58.0.26 plus slow internet so i used to explaining the faults and drafting fixes that I read, tested and changed and  codeRabbit - fixing buges while it's downloading 
+-i used GitHub desktop push my code issue with the network 
 
 ## Sign-in for testing
 Email `staff@meridian.test`, password `Password123!` (set in `backend/.env`: DEMO_EMAIL / DEMO_PASSWORD).
